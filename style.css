@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+}
+.b1{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+}
+.b1 img{
+    width: 50%;
+}
+form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form label{
+    color: white;
+    margin-top: 20px;
+    margin-right: 210px;
+    font-size: 20px;
+}
+
+form a{
+    color: rgb(68, 68, 209);
+    text-decoration: none;
+    line-height: 30px;
+}
+form a:hover{
+    color:white;
+    text-decoration: underline;
+}
+form hr{
+    width: 60%;
+    margin-top: 20px;
+}
+form #button2{
+    background-color: gray;
+    color: white;
+}
+
+form #label-id{
+    margin-right: 298px;
+}
+form input{
+    height: 40px;
+    width: 60%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+form button{
+    margin-top: 20px;
+    height: 45px;
+    width: 60%;
+    background-color: rgb(68, 68, 209);
+    border: none;
+    color: white;
+}
+form span{
+    color:white;
+    margin-top: 10px;
+}
+form span a{
+    color:white;
+}
+form span a:hover{
+    color:rgb(68, 68, 209)
+}
+form p{
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+.b2{
+    height: 100%;
+    width: 50%;
+    background-image: url("login-bg\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+
+
+
+
+}
+.b2 h1{
+    color:white;
+    text-align: center;
+    font-size: 45px;
+
+
+}
+.b2 button{
+    background-color: transparent;
+    border:1px solid white;
+    border-radius: 3px;
+    color:white;
+    height: 45px;
+    width: 280px;
+    margin-top: 30px;
+
+}
+@media (max-width:768px)
+ {
+    .container{
+        height:auto;
+        width:auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .b1{
+        height: 100vh;
+        width: 100%;
+        padding-top: 11%;
+    }
+    .b2{
+        height: 100vh;
+        width: 100%;
+
+
+    }
+    form label{
+        font-size: 20px;
+        margin-right: 50px;
+        
+
+    }
+    form #label-id{
+        margin-right: 60px;
+    }
+}
